@@ -5,6 +5,18 @@ Begin Menu MenuBar1
       Text = "&Archivo"
       Index = -2147483648
       AutoEnable = True
+      Begin MenuItem FileOpen
+         SpecialMenu = 0
+         Text = "&Abrir..."
+         Index = -2147483648
+         AutoEnable = True
+      End
+      Begin MenuItem UntitledSeparator
+         SpecialMenu = 0
+         Text = "-"
+         Index = -2147483648
+         AutoEnable = True
+      End
       Begin QuitMenuItem FileQuit
          SpecialMenu = 0
          Text = "#App.kFileQuit"
@@ -28,7 +40,7 @@ Begin Menu MenuBar1
          MenuModifier = True
          AutoEnable = True
       End
-      Begin MenuItem 
+      Begin MenuItem UntitledMenu1
          SpecialMenu = 0
          Text = "-"
          Index = -2147483648
@@ -67,7 +79,7 @@ Begin Menu MenuBar1
          Index = -2147483648
          AutoEnable = True
       End
-      Begin MenuItem 
+      Begin MenuItem UntitledMenu0
          SpecialMenu = 0
          Text = "-"
          Index = -2147483648

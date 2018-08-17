@@ -4,6 +4,7 @@
 // to change:
 Dim tagsToChange() As Pair
 tagsToChange.Append New Pair(";Cmark/", ";../Cmark/")
+tagsToChange.Append New Pair(";SplitterLBM.rbbas;", ";../../Xojo-LBMSoftLib/LBMSoftLib/SplitterLBM.rbbas;")
 
 Dim foldersToMove() As Pair
 foldersToMove.Append New Pair("Cmark", "../")
