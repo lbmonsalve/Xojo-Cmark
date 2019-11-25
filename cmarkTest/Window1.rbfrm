@@ -364,7 +364,7 @@ End
 #tag Events SplitVertical
 	#tag Event
 		Sub Open()
-		  Me.DirectionType= SplitterLBM.TypeDirection.EastWest
+		  Me.Direction= SplitterLBM.Directions.EastWest
 		End Sub
 	#tag EndEvent
 	#tag Event
